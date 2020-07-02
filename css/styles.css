@@ -1,0 +1,72 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.child{
+	width: 18%;
+	border: 1px solid #ddd;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 10%;
+}
+.child1{
+	width: 50%;
+	border: 1px solid #ddd;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 10%;
+}
+.child1 h2{
+	color: red;
+}
+.profile{
+	width: 100px;
+	border: 1px solid #ddd;
+	padding: 2%;
+	margin: 2%;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 70%;
+}
+.contact{
+	width: 25px;
+	padding-right: 25px;	
+}
+@media only screen and(min-width: 360px) and (max-width: 767px){
+	.child{
+		width: 40%;
+		
+	}
+	.child1{
+		width: 60%;
+     
+	}
+	.child1 h2{
+		color: red;
+	}
+
+}
+@media only screen and(min-width: 768px) and (max-width: 1024px){
+	.child{
+		width: 20%;
+		border: 1px solid #ddd;
+		box-shadow: 0px 8px 8px -8px #000;
+		border-radius: 10%;
+		text-align: center;
+	}
+	.child1{
+		width: 30%;
+        border: 1px solid #ddd;
+	    padding: 2%;
+	    text-align: center;
+	    box-shadow: 0px 8px 8px -8px #000;
+	    border-radius: 10%;
+	}
+
+}
+
